@@ -30,9 +30,9 @@ Remember to update the Script1.py file to include comments and documentation in 
 ### Lady Slipper Orchid Suitability
 The goal of this script is to create a streamlined method of judging the suitability of a habitat for the species of orchid, the Pink Lady's Slipper (Cypripedium acaule Ait).  The suitability is based on three environmental variables important for the orchid, including the presence of a symbiotic fungus (of the Rhizoctonia genus), light levels, and moisture levels.  As the presence of the fungus is crucial for the orchid to receive the necessary nutrients it needs germinate, this variable acts as a Boolean value in terms of habitat suitability.  This orchid enjoys low and mid-levels of light availability, with high levels being unsuitable for habitation.  Moisture levels are important for this orchid, as it prefers moist conditions, can tolerate mid-level moisture levels, and is unable to grow in low moisture conditions.  These variables make up the input variables for the function ‘Suitability’.  
 
-###  Fungus Presence: y/n
-###  Light Level: high/mid/low
-###  Moisture Level: high/mid/low
+#####  Fungus Presence: y/n
+#####  Light Level: high/mid/low
+#####  Moisture Level: high/mid/low
 
 When this function is run, the user is prompted with three rounds of input opportunities, one for each input variable.  This allows the user to better understand the information necessary for the function, and to be able to utilize it without having prior knowledge of Python programming.  The result of this function is a judgement of the suitability of the environment described by the input variables in three levels; “Habitat suitable”, “Habitat partially suitable”, and “Habitat unsuitable”.  
 
