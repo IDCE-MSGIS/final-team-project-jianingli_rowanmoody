@@ -55,6 +55,10 @@ for i in weather_forecast:
 
 # Print list to remove unicode characters
 for day in forecast:
+    day = day.replace('Becoming','Becoming ')
+    day = day.replace('Frost','Frost ')
+    day = day.replace('SunnyThen','Sunny Then')
+    day = day.replace('SlightChance','Slight Chance')   
     day = day.replace('Showers','Showers ')
     day = day.replace('Likely','Likely ')
     day = day.replace('Night', ' Night')
