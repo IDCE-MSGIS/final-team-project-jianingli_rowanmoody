@@ -1,4 +1,6 @@
 '''
+#Jianing Li & Rowan Moody
+#Time Taken 1:30
 # Assignment title: Final Project- Web-scraping Weather Forecast
 # Date: 09/23/2019
 # Description: The script web-scrapes the weather.gov website to extract the 5-Day weather forecast for a given location
