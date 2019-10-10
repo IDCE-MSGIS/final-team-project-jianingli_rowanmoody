@@ -8,7 +8,7 @@ Time Taken 3:30
 
 #fungi input y/n , sun input high/mid/low, water input high/mid/low
 #User prompted for input
-fungi,sun,water=raw_input('Input fungi presence (y/n): '), raw_input ('Input sun strength (high/mid/low): '), raw_input ('Input moisture level (high/mid/low: ')
+fungi,sun,water=raw_input('Input fungi presence (y/n): '), raw_input ('Input sun strength (high/mid/low): '), raw_input ('Input moisture level (high/mid/low): ')
 
 #Suitability function defined by lady slipper environment parameters
 def Suitability (fungi,sun,water):
